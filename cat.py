@@ -5,5 +5,7 @@ try:
   strs.append(input().lower())
  if any('кот' in s for s in strs):
   print ('МЯУ')
+ else: 
+  print ('НЕТ')
 except ValueError:
  print ('Неверное число строк')
